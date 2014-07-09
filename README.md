@@ -1,3 +1,3 @@
 ## Papernotes 
 
-Open source project for fun
+Open source project for fun & $$
