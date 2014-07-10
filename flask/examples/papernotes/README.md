@@ -24,4 +24,4 @@
        
 	
 - Is it tested?
-Run the `papernotes_tests.py` file to see the tests pass.
+	- Run the `papernotes_tests.py` file to see the tests pass.
