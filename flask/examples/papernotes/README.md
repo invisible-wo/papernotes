@@ -1,9 +1,7 @@
 ## PaperNotes
 
 - What is PaperNotes?
-
-  A SQLite and Flask powered social network for paper readers
-  Also a review website for papers.
+	- A SQLite and Flask powered social network for paper readers. It is also a review website for papers.
 
 - How do I use it?
     - 1. edit the configuration in the papernotes.py file or
@@ -14,8 +12,8 @@
 	flask --app=papernotes initdb
 	```
     - 3. now you can run minitwit:
-    	```
-       flask --app=papernotes run
+	```
+	flask --app=papernotes run
 	```
        the application will greet you on
        http://localhost:5000/
