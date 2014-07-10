@@ -17,10 +17,10 @@
 	```
 	or 
 	```
-	flask --app=papernotes run --host yourIPaddr
+	flask --app=papernotes run --host yourIPv4addr
 	```
        the application will greet you on
-       http://localhost:5000/
+       http://localhost:5000/ or http://**.**.**.***:5000
        
 	
 - Is it tested?
