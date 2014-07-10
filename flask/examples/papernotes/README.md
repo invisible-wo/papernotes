@@ -8,17 +8,20 @@
        export an PAPERNOTES_SETTINGS environment variable
        pointing to a configuration file.
     - 2. fire up a shell and run this:
-	```
-	flask --app=papernotes initdb
-	```
+		```
+		flask --app=papernotes initdb
+		```
     - 3. now you can run minitwit:
-	```
-	flask --app=papernotes run
-	```
+		```
+		flask --app=papernotes run
+		```
+	or 
+		```
+		flask --app=papernotes run --host yourIPaddr
+		```
        the application will greet you on
        http://localhost:5000/
        
 	
 - Is it tested?
-
 Run the `papernotes_tests.py` file to see the tests pass.
