@@ -20,7 +20,7 @@
 	flask --app=papernotes run --host yourIPv4addr
 	```
        the application will greet you on
-       http://localhost:5000/ or http://**.**.**.***:5000
+       http://localhost:5000/ or http://ipaddress:5000
        
 	
 - Is it tested?
