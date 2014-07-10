@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}Paper{% endblock %}
+{% block body %}
+  <h2>Paper</h2>
+  {% if error %}<div class=error><strong>Error:</strong> {{ error }}</div>{% endif %}
+  <form action="" method=post>
+    <dl>
+      <dt>Title:
+      <dd>
+      <dt>Authors:
+      <dd>
+      <dt>Conference/Journal:
+      <dd>
+    </dl>
+  </form>
+{% endblock %}
